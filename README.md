@@ -114,13 +114,13 @@ oci://ghcr.io/stefanprodan/charts/podinfo
 #### Kustomize
 
 ```bash
-kubectl apply -k github.com/stefanprodan/podinfo//kustomize
+kubectl apply -k https://github.com/osodevops/podinfo//kustomize
 ```
 
 #### Docker
 
 ```bash
-docker run -dp 9898:9898 stefanprodan/podinfo
+docker run -dp 9898:9898 osodevops/podinfo
 ```
 
 ### Continuous Delivery

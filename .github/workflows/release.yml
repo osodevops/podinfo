@@ -61,7 +61,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            docker.io/stefanprodan/podinfo
+            docker.io/osodevops/podinfo
 #            ghcr.io/stefanprodan/podinfo
           tags: |
             type=raw,value=${{ steps.prep.outputs.VERSION }}
